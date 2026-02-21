@@ -1,0 +1,11 @@
+.shadowbox {
+    box-shadow: 8px 8px 5px #bc2a2a;
+    border: 1px dotted #0a0808;
+    padding: 8px 12px;
+    background-image: linear-gradient(180deg,#fff,#9e1b1b 40%,#a75454);
+    border-radius: 10px;
+    width: 8em;
+}
+
+
+
