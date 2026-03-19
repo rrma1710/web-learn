@@ -1,5 +1,5 @@
 .shadowbox {
-    box-shadow: 8px 8px 5px #bc2a2a;
+    box-shadow: 8px 8px 5px #452929;
     border: 1px dotted #0a0808;
     padding: 8px 12px;
     background-image: linear-gradient(180deg,#fff,#9e1b1b 40%,#a75454);
@@ -7,5 +7,45 @@
     width: 8em;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0;
+    width: 30%;
+}
 
+li {
+    background: linear-gradient(135deg, #0a5bcd, #f3f7ff);
+    border: 1px solid #1150d8;
+    border-left: 5px solid #0c448d;
+    border-radius: 15px;
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    /* box-shadow: 0 10px 10px rgba(40, 21, 21, 0.08); */
+    transition: transform 0.10s ease, box-shadow 0.10s ease;
+}
 
+li:hover {
+    transform: translateX(4px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.20);
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+article {
+    margin: 2em;
+}
+#copy{
+    background-color: #0a5bcd;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
