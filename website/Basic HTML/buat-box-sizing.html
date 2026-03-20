@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Judul Dokumen</title>
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="content"></div>
+    <p>
+        Elemen menerapkan <code>box-sizing: content-box;</code> Ukuran box secara keseluruhan akan
+        menjadi 260px lebar, 260px tinggi; 260 = 200 + 20 + 20 + 10 + 10
+    </p>
+    <br />
+    <div class="box center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, pariatur officia sunt eum alias odio? Expedita sapiente, alias et similique laudantium, pariatur maxime cumque saepe fugit natus quas officia ipsum?</div>
+    <p>
+        Elemen menerapkan <code>box-sizing: border-box;</code> Ukuran box akan tetap 200px lebar,
+        200px tinggi meskipun menerapkan padding dan border
+    </p>
+</body>
+<style>
+    div {
+        height: 200px;
+        width: 200px;
+        background-color: lightgreen;
+        border: 5px solid cornflowerblue;
+        padding: 20px;
+    }
+
+    .content {
+        box-sizing: content-box;
+        border: dotted 5px cornflowerblue;
+    }
+
+    .box.center {
+        border-top-style: solid;
+        border-right-style: dotted;
+        border-bottom-style: groove;
+        border-left-style: double;
+
+        border-width: 4px;
+        border-color: rgb(29, 48, 223);
+        width: 200px;
+        height: 150px;
+
+        padding-top: 20px;
+         margin: 0 auto;
+    }
+</style>
+
+</html>

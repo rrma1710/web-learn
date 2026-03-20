@@ -1,0 +1,17 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.profile{
+    text-align: center;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+li a:hover{
+    color: red;
+}
