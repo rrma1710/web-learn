@@ -113,3 +113,10 @@ h3[id] {
         margin-top: 20px;
     }
 }
+
+footer{
+    background-color: #498dcb;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
