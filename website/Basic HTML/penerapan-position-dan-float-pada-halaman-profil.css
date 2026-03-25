@@ -65,17 +65,23 @@ section {
 }
 
 main {
-    display: flex;
-    align-items: flex-start;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+main::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .left-content {
+    float: left;
     width: 70%;
 }
 
 .right-content {
+    float: right;
     width: 30%;
 }
 
@@ -97,13 +103,13 @@ h3[id] {
 
 @media screen and (max-width: 600px) {
 
-    main {
-        flex-direction: column;
-        gap: 20px;
-    }
-
     .left-content,
     .right-content {
+        float: none;
         width: 100%;
+    }
+
+    .right-content {
+        margin-top: 20px;
     }
 }
