@@ -1,0 +1,28 @@
+.box {
+    height: 100px;
+}
+
+.box:nth-child(odd) {
+    background-color: red;
+}
+
+.box:nth-child(even) {
+    background-color: blue;
+}
+
+.flex{
+    display: flex;
+
+    gap: 8px;
+}
+
+.box1{
+    flex-grow: 2;
+}
+
+.box2{
+    flex-grow: 0;
+}
+.box3{
+    flex-grow: 1;
+}

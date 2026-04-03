@@ -1,0 +1,10 @@
+main .flex {
+    background-color: lightpink;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

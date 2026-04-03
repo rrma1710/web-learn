@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+    background-color: lightgray;
+    align-items: baseline;
+}
+.flex .box:nth-child(odd) {
+    background-color: red;
+}
+.flex .box:nth-child(even) {
+    background-color: blue;
+}
+
+

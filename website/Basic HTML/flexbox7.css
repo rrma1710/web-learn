@@ -1,0 +1,29 @@
+.box {
+    width: 100px;
+    height: 100px;
+
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.box:nth-child(odd) {
+    background-color: red;
+}
+
+.box:nth-child(even) {
+    background-color: blue;
+}
+
+.flex {
+    background-color: chocolate;
+    height: 50vh;
+    display: flex;
+
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+    align-content: center;
+    /* align-content: space-between; */
+    /* align-content: space-around; */
+    /* align-content: space-evenly; */
+    column-gap: 16px;
+}
